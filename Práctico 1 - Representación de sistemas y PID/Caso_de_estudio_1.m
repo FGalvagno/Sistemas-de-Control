@@ -46,3 +46,7 @@ data = renamevars(data, ["Var1","Var2","Var3"], ["t","i","v_c"])
 figure('Name', '1.2')
  subplot(3,1,1);plot(data.t,data.i);grid on; title('Corriente1');
  subplot(3,1,2);plot(data.t,data.v_c);grid on; title('Tensión en el capacitor, V_c1');
+
+%Determinacion del modelo a partir de la ecuacion de 2do orden
+
+
