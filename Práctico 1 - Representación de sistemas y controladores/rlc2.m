@@ -1,7 +1,8 @@
-%3------------------------------------------------------------------------
-clear all;
+% ITEM 2------------------------------------------------------------------------
+clear all; close all;
 %Cargamos los datos medidos
-datos = xlsread('Curvas_Medidas_RLC.xls');
+pkg load control;
+datos = xlsread('Curvas_Medidas_RLC_2024.xlsx');
 t = datos(:,1);
 i = datos(:,2);
 v_c = datos(:,3);
@@ -43,5 +44,6 @@ figure
     
 [N D] = tfdata(sys_id, "v")
 L = 0.1; %Definimos un valor para L
-C = D(1)/L;
-R = D(2)/C;
+C = D(1)/L
+R = D(2)/C
+
