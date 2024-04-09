@@ -1,7 +1,6 @@
 % ITEM 2------------------------------------------------------------------------
 clear all; close all;
 %Cargamos los datos medidos
-pkg load control;
 datos = xlsread('Curvas_Medidas_RLC_2024.xlsx');
 t = datos(:,1);
 i = datos(:,2);
@@ -11,6 +10,13 @@ figure('Name', '1.2')
  subplot(2,1,1);plot(t,i);grid on; title('Corriente1');
  subplot(2,1,2);plot(t,v_c);grid on; title('Tensión en el capacitor, V_c1');
 
+%Del gráfico aproximamos R a partir de Vmax/Imax, a partir del primer pico
+%Raprox = 335 ohm
+%Luego de contrastar los resultados, ajustamos los valores de R para llegar
+%a una aproximación mejor de R = 270 ohm
+R = 270
+ 
+ 
 % Determinamos el modelo del circuito RLC a partir del método desarollado
 % por Chen
 
@@ -42,8 +48,7 @@ sys_id = k/(T1*s+1)/(T2*s+1)
 figure
     step(sys_id)
     
-[N D] = tfdata(sys_id, "v")
-L = 0.1; %Definimos un valor para L
-C = D(1)/L
-R = D(2)/C
+[N D] = tfdata(sys_id, 'v')
 
+C = D(2)/R
+L = D(1)/C
