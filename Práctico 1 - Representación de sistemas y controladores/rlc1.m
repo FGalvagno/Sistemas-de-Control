@@ -2,8 +2,7 @@
 clear all; close all; clc
 %Generamos señal de entrada:
 %Onda cuadrada alterna de 2ms de periodo y 12V de amplitud
-pkg load control
-pkg load signal
+
 
 R=47; L=1e-06; C=100e-09; %Parámetros del circuito RLC
 A1 = [-R/L -1/L; 1/C 0];

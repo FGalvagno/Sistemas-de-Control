@@ -20,6 +20,8 @@ R = 270
 % Determinamos el modelo del circuito RLC a partir del método desarollado
 % por Chen
 
+% td: tiempo entre puntos equidistantes para el algoritmo de chen
+% t1: tiempo inicial para el algoritmo
 td = 0.01;
 t1 = 0.002;
 k=max(v_c);
