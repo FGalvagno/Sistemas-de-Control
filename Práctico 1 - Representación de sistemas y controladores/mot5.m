@@ -23,7 +23,7 @@ wr_va=collect(S1.w/S1.V,s);
 pretty(wr_va)
 
 eq1=s*I==-Ra/La*I-Km/La*w;
-eq2=s*w==Ki/Jm*I-Bm/Jm*w-1/j*Tl;
+eq2=s*w==Ki/Jm*I-Bm/Jm*w-1/Jm*Tl;
 S1=solve(eq1,eq2,w,Tl);
 wr_Tl=collect(S1.w/S1.Tl,s);
 pretty(wr_Tl)
