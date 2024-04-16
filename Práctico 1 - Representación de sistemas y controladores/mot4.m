@@ -36,7 +36,7 @@ end
 figure('Name','Torque vs Corriente')
  subplot(3,1,1);plot(t,wr);grid on; title('Velocidad angular, W_r'); 
  subplot(3,1,2);plot(t,ia);grid on; title('Corriente de armadura, I_a');
-
+ 
  %El torque máximo viene dado por la corriente máxima del motor (en el arranque)
  ia_max = max(ia)
  wr_max = max(wr)
