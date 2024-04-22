@@ -161,5 +161,4 @@ figure('Name','Torque vs Corriente')
  plot(t,t_l);
  hold off
  
-
  
