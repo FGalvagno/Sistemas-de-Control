@@ -9,21 +9,35 @@ u = datos(:,4);
 t_l = datos(:,5);
 
 figure('Name', 'Ítem 5')
- subplot(4,1,1);plot(t,i_a);grid on; title('Corriente de Armadura, i_a');
- subplot(4,1,2);plot(t,w_r);grid on; title('Velocidad Angular, W_r');
- subplot(4,1,3);plot(t,u);grid on; title('Tensión de entrada, V_i');
- subplot(4,1,4);plot(t,t_l);grid on; title('Torque de carga, T_L');
- 
-% Obtención de la funcion de transferencia del motor
+subplot(4,1,1);plot(t,i_a);grid on; title('Corriente de Armadura, i_a');
+subplot(4,1,2);plot(t,w_r);grid on; title('Velocidad Angular, W_r');
+subplot(4,1,3);plot(t,u);grid on; title('Tensión de entrada, V_i');
+subplot(4,1,4);plot(t,t_l);grid on; title('Torque de carga, T_L');
+
+%% Obtención de la funcion de transferencia del motor
 syms V Ra La I Ki w Jm Km Bm Tl s real
 eq1=s*I==-Ra/La*I-Km/La*w+1/La*V;
 eq2=s*w==Ki/Jm*I-Bm/Jm*w;
 S1=solve(eq1,eq2,w,V);
 wr_va=collect(S1.w/S1.V,s);
-pretty(wr_va)
 
 
-% Determinamos las funciones de transferencia a partir del método desarollado
+syms V Ra La I Ki w Jm Km Bm Tl s real
+eq1=s*I==-Ra/La*I-Km/La*w;
+eq2=s*w==Ki/Jm*I-Bm/Jm*w-Tl/Jm;
+S1=solve(eq1,eq2,w,Tl);
+wr_tl=collect(S1.w/S1.Tl,s);
+
+
+% tomamos Bm = 0
+wr_va = subs(wr_va, Bm, 0)
+wr_tl = subs(wr_tl, Bm, 0)
+pretty(wr_va);
+pretty(wr_tl);
+% Según TVF tenemos
+limit(wr_va, s, 0)
+limit(wr_tl, s, 0)
+%% Determinamos las funciones de transferencia a partir del método desarollado
 % por Chen
 
 % td: tiempo de delay de entrada
@@ -35,11 +49,11 @@ t1 = 0.0001;
 k = 198
 [val lugar] = min(abs((t1+td)-t))
 
- k1 = w_r(lugar)/k-1
- [val lugar] = min(abs((2*t1+td)-t))
- k2 = w_r(lugar)/k-1
- [val lugar] = min(abs((3*t1+td)-t))
- k3 = w_r(lugar)/k-1
+ k1 = w_r(lugar)/k-1;
+ [val lugar] = min(abs((2*t1+td)-t));
+ k2 = w_r(lugar)/k-1;
+ [val lugar] = min(abs((3*t1+td)-t));
+ k3 = w_r(lugar)/k-1;
 %k1 = 135.58/k-1
 %k2 = 191.60/k-1
 %k3 = 198.30/k-1
@@ -52,9 +66,9 @@ beta= (2*k1^3+3*k1*k2+k3-sqrt(b))/sqrt(b);
 T1 =-t1/log(alfa1);
 T2 =-t1/log(alfa2);
 %T3 = beta*(T1-T2)+T1
-s = tf('s')
-G1=(k/12)/(T1*s +1)/(T2*s +1) %G1 normalizada.
-
+s = tf('s');
+G1=(k)/(T1*s +1)/(T2*s +1); %G1 normalizada.
+G1=G1/12
 
 figure
 hold on
@@ -64,18 +78,29 @@ legend('FdT estimado','FdT medido')
 hold off
 
 
-%Obtención de parámetros del motor
+%% Obtención de parámetros del motor
 %Aproximación de la resistencia de armadura 28.13 en una primera aprox.
-Ra = max(u)/max(i_a)
-
+%Bajamos la resistencia en otra aproximación a 20 Ohm según el primer pico
+%de la corriente
+%Ra = max(u)/max(i_a)
+Ra = 20
+Km = max(u)/max(w_r)
+%A partir de la ganancia en estado estable de Wr/Tl despejamos Ki 
+K_ss = (198-164)/1.05e-3
+Ki = Ra/Km/K_ss
 [N D] = tfdata(G1, 'v')
 
-B = 0; 
-J = D(1)
-Laa = (J*Ra)/D(2)
-Ki = Laa*N(3)
-Km = D(3)*(Laa/Ki)
+%Normalizamos el numerador y el denominador
+fac = Ki/N(3)
+N = N*fac
+D = D*fac
 
+B = 0; 
+J = D(2)/Ra
+Laa = D(1)/J
+
+
+%%
 %Verificamos el modelo aproximado vs las mediciones
 %Generamos la función de entrada de tensión Va y TL para el motor.
 delta=1e-6;
@@ -122,6 +147,7 @@ figure('Name','Torque vs Corriente')
  plot(t_s,wr);grid on; title('Velocidad angular, W_r'); 
  hold on
  plot(t,w_r);
+ legend('Aprox', 'Medido')
  hold off
  
  subplot(3,1,2);plot(t_s,ia);grid on; title('Corriente de armadura, I_a');
