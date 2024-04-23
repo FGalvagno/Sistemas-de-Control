@@ -1,16 +1,16 @@
 % ITEM 2------------------------------------------------------------------------
 clear all; close all;
-%Cargamos los datos medidos
+%% Cargamos los datos medidos
 datos = xlsread('Curvas_Medidas_RLC_2024.xlsx');
 t = datos(:,1);
 i = datos(:,2);
 v_c = datos(:,3);
 
 figure('Name', '1.2')
- subplot(2,1,1);plot(t,i);grid on; title('Corriente1');
- subplot(2,1,2);plot(t,v_c);grid on; title('Tensión en el capacitor, V_c1');
+subplot(2,1,1);plot(t,i);grid on; title('Corriente, I');
+subplot(2,1,2);plot(t,v_c);grid on; title('Tensión en el capacitor, V_c1');
 
-%Del gráfico aproximamos R a partir de Vmax/Imax, a partir del primer pico
+%% Del gráfico aproximamos R a partir de Vmax/Imax, a partir del primer pico
 %Raprox = 335 ohm
 %Luego de contrastar los resultados, ajustamos los valores de R para llegar
 %a una aproximación mejor de R = 270 ohm

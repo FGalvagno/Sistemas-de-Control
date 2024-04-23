@@ -17,13 +17,13 @@ U = [12; 0]
 X = [0; 0; 0];
 Xp = [0; 0; 0;]
 ii = 0;
-t_etapa = 1e-7;
-tF = 5e-3;
+t_etapa = 2e-7;
+tF = 600e-3;
 ref = 1;
 
 %Constantes del PID
 %Kp=0.1;Ki=0.01;Kd=5;color_='r';
-Kp=300;Ki=100;Kd=0.01;color_='b';
+Kp=80;Ki=500;Kd=0.01;color_='b';
 Ts=t_etapa;
 A1=((2*Kp*Ts)+(Ki*(Ts^2))+(2*Kd))/(2*Ts);
 B1=(-2*Kp*Ts+Ki*(Ts^2)-4*Kd)/(2*Ts);
@@ -39,15 +39,15 @@ ij = 0;
 
 for ii= 1:N-1
     ij=ij+t_etapa;
-    if (ij>=2.5e-3)
+    if (ij>=300e-3)
         U(2)=1e-3;
     end
     k = ii+2;
     Xp=A*X+B*U;
     X=X+Xp*t_etapa;
     Y=C*X+D*U;
-    e(k) = ref-Y(3);
-    U(1) = U(1)+A1*e(k)+B1*e(k-1)+C1*e(k-2);
+    %e(k) = ref-Y(3);
+    %U(1) = U(1)+A1*e(k)+B1*e(k-1)+C1*e(k-2);
     
     acc(ii+1)=U(1);
     ia(ii+1)=Y(1);
@@ -62,5 +62,4 @@ plot(t,theta,color_);title('Salida: Posición, \theta_t');
 subplot(2,1,2);hold on;
 plot(t,omega,color_);title('Salida: Velocidad, \omega_t');
 xlabel('Tiempo [Seg.]');
-
 

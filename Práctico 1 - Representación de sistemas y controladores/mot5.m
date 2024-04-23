@@ -67,8 +67,8 @@ T1 =-t1/log(alfa1);
 T2 =-t1/log(alfa2);
 %T3 = beta*(T1-T2)+T1
 s = tf('s');
-G1=(k)/(T1*s +1)/(T2*s +1); %G1 normalizada.
-G1=G1/12
+G1=(k/12)/(T1*s +1)/(T2*s +1); %G1 normalizada.
+
 
 figure
 hold on
@@ -102,7 +102,6 @@ Laa = D(1)/J
 
 %%
 %Verificamos el modelo aproximado vs las mediciones
-%Generamos la función de entrada de tensión Va y TL para el motor.
 delta=1e-6;
 ts=0.6;
 

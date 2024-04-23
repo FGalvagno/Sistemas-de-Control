@@ -18,7 +18,7 @@ FdT = tf(N,D)
 %Estudiamos la dinámica en base a los autovalores de A
 eig_val = eig(A1)
 
-%Tiempo de itegración y simulación
+%% Tiempo de itegración y simulación
 tr=log(0.95)/eig_val(1);
 
 %Tomamos ti = 1e-10 (10 veces mas pequeño)
@@ -30,7 +30,7 @@ ts = 5e-03
 
 N = ts/ti;
 
-%Señal de entrada y vector de tiempo
+%% Señal de entrada y vector de tiempo
 t = linspace (0, ts, N);
 u = linspace (0, 0, N);
 
