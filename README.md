@@ -1,2 +1,2 @@
 # Sistemas de Control
-Scripts y projectos de MATLAB utilizados para la asignatura Sistemas de Control II.
+Este repositorio contiene los trabajos prácticos propuestos por el profesor Julian Pucheta, realizados durante la asignatura Sistemas de Control II.
