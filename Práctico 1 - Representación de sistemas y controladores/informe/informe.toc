@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Desarrollo}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Caso de estudio 1. Sistema de dos variables de estado}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Caso de estudio 2. Sistema de tres variables de estado}{8}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Conclusiones}{19}{section.3}%
+\contentsline {section}{\numberline {4}Lecciones aprendidas}{20}{section.4}%
+\contentsline {section}{\numberline {5}Recursos}{20}{section.5}%
