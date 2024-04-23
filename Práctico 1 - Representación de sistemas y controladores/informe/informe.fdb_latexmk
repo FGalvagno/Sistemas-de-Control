@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1713911786.16995 "/home/facundog/Documents/GitHub/documentacion/informes-scii/TP1/informe.tex" "informe.pdf" "informe" 1713911788.20984 0
+["pdflatex"] 1713912137.70869 "/home/facundog/Documents/GitHub/documentacion/informes-scii/TP1/informe.tex" "informe.pdf" "informe" 1713912139.77486 0
   "/home/facundog/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1713893801.6153 30894 62cb1e45554f997ccd4757eb05f8c906 ""
   "/home/facundog/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1713888368.38762 21111214 09ebdaaa77c06cf78f76ee49147c5948 ""
   "/home/facundog/.miktex/texmfs/install/fonts/enc/dvips/base/8r.enc" 1713886281.37446 4993 1194fb36dfcb11d9ae9802f2b00b60a3 ""
@@ -106,7 +106,7 @@
   "/home/facundog/.miktex/texmfs/install/tex/latex/url/url.sty" 1713886131.04876 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/home/facundog/.miktex/texmfs/install/tex/latex/xcolor/x11nam.def" 1713886147.96846 9125 e0e22f8bd8f488926acdd4e96dcc4d1e ""
   "/home/facundog/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty" 1713886147.96846 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/home/facundog/Documents/GitHub/documentacion/informes-scii/TP1/informe.tex" 1713911785.67022 29185 c5b54f51002694e6949b4c03ee6ce287 ""
+  "/home/facundog/Documents/GitHub/documentacion/informes-scii/TP1/informe.tex" 1713912137.17557 29202 0dea25ce4842530da32c6e62dcc3e6d2 ""
   "img/1.png" 1713892345.84025 13076 b8fc8e06fed334823a22d48d708025bf ""
   "img/FCEFyN-Duotono_tagline.png" 1713885914.03401 67023 343c6d226b4a99fe8f5ce9f3b6aa08a8 ""
   "img/color_UNC-FCEFyN.png" 1713888680.60243 193688 ef219e3ff6dc163f9c115ef1da730f19 ""
@@ -124,10 +124,10 @@
   "img/rlc2-2.jpg" 1713896320.93246 51864 9b89cf3a5289a4bfaa35bbef6d44e403 ""
   "img/rlc3-1.jpg" 1713897946.97134 69044 8f6b3fd0dc0ea03f889d6cc4eb92c792 ""
   "img/rlc3-2.jpg" 1713898222.95625 66019 4d11523955e5301482305a36bc1a4466 ""
-  "informe.aux" 1713911788.09025 4089 1930387db0827a562c7600bee7a9e5cb "pdflatex"
-  "informe.out" 1713911788.09025 1234 ed73cd6c6a6a3cdedefe3dd00f528649 "pdflatex"
-  "informe.tex" 1713911785.67022 29185 c5b54f51002694e6949b4c03ee6ce287 ""
-  "informe.toc" 1713911788.09025 615 ac709a1dcb56a16970309c3a1ebbe826 "pdflatex"
+  "informe.aux" 1713912139.62761 4089 1930387db0827a562c7600bee7a9e5cb "pdflatex"
+  "informe.out" 1713912139.63161 1234 ed73cd6c6a6a3cdedefe3dd00f528649 "pdflatex"
+  "informe.tex" 1713912137.17557 29202 0dea25ce4842530da32c6e62dcc3e6d2 ""
+  "informe.toc" 1713912139.63161 615 ac709a1dcb56a16970309c3a1ebbe826 "pdflatex"
   (generated)
   "informe.aux"
   "informe.log"

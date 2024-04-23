@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.23)  23 APR 2024 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.4.23)  23 APR 2024 19:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -396,8 +396,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 ) (/home/facundog/.miktex/texmfs/install/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2023/11/15 v3.01 Predefined colors according to Unix/X11 (UK)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 81.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 82.
  (/home/facundog/.miktex/texmfs/install/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (/home/facundog/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
@@ -410,24 +410,24 @@ LaTeX Info: Redefining \% on input line 11.
 )
 \openout1 = `informe.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -488,7 +488,7 @@ Package grfext Info: Graphics extension search list:
  (/home/facundog/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 81.
+Package hyperref Info: Link coloring ON on input line 82.
  (informe.out) (informe.out)
 \@outlinefile=\write3
 \openout3 = `informe.out'.
@@ -496,19 +496,19 @@ Package hyperref Info: Link coloring ON on input line 81.
  (/home/facundog/.miktex/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 81.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 82.
 \c@lstlisting=\count339
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
  (/home/facundog/.miktex/texmfs/install/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
 <img/FCEFyN-Duotono_tagline.png, id=31, 917.3472pt x 285.4665pt>
 File: img/FCEFyN-Duotono_tagline.png Graphic file (type png)
 <use img/FCEFyN-Duotono_tagline.png>
-Package pdftex.def Info: img/FCEFyN-Duotono_tagline.png  used on input line 100.
+Package pdftex.def Info: img/FCEFyN-Duotono_tagline.png  used on input line 101.
 (pdftex.def)             Requested size: 418.25368pt x 130.15315pt.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 100.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 101.
  (/home/facundog/.miktex/texmfs/install/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) [1
@@ -523,42 +523,42 @@ LaTeX Info: Redefining \% on input line 1.
 <img/color_UNC-FCEFyN.png, id=48, 1758.57pt x 285.4665pt>
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 103.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 104.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 103.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 104.
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <10> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 103.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 104.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \newpage
+l.104 \newpage
                [1 <./img/color_UNC-FCEFyN.png>]
 <img/1.png, id=55, 741.77126pt x 420.57124pt>
 File: img/1.png Graphic file (type png)
 <use img/1.png>
-Package pdftex.def Info: img/1.png  used on input line 124.
+Package pdftex.def Info: img/1.png  used on input line 125.
 (pdftex.def)             Requested size: 146.39133pt x 82.99612pt.
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 182.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 183.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [2 <./img/1.png>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 238.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 239.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [3]
 <img/rlc1-1.jpg, id=123, 1927.2pt x 964.60374pt>
 File: img/rlc1-1.jpg Graphic file (type jpg)
 <use img/rlc1-1.jpg>
-Package pdftex.def Info: img/rlc1-1.jpg  used on input line 247.
+Package pdftex.def Info: img/rlc1-1.jpg  used on input line 248.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 <img/rlc2-1.jpg, id=124, 1927.2pt x 964.60374pt>
 File: img/rlc2-1.jpg Graphic file (type jpg)
 <use img/rlc2-1.jpg>
-Package pdftex.def Info: img/rlc2-1.jpg  used on input line 269.
+Package pdftex.def Info: img/rlc2-1.jpg  used on input line 270.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -566,33 +566,33 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 290.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 291.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [4 <./img/rlc1-1.jpg>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 325.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 326.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [5 <./img/rlc2-1.jpg>]
 <img/rlc2-2.jpg, id=177, 1927.2pt x 964.60374pt>
 File: img/rlc2-2.jpg Graphic file (type jpg)
 <use img/rlc2-2.jpg>
-Package pdftex.def Info: img/rlc2-2.jpg  used on input line 337.
+Package pdftex.def Info: img/rlc2-2.jpg  used on input line 338.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 375.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 376.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [6 <./img/rlc2-2.jpg>]
 <img/rlc3-1.jpg, id=204, 1927.2pt x 964.60374pt>
 File: img/rlc3-1.jpg Graphic file (type jpg)
 <use img/rlc3-1.jpg>
-Package pdftex.def Info: img/rlc3-1.jpg  used on input line 385.
+Package pdftex.def Info: img/rlc3-1.jpg  used on input line 386.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 <img/rlc3-2.jpg, id=205, 1927.2pt x 964.60374pt>
 File: img/rlc3-2.jpg Graphic file (type jpg)
 <use img/rlc3-2.jpg>
-Package pdftex.def Info: img/rlc3-2.jpg  used on input line 399.
+Package pdftex.def Info: img/rlc3-2.jpg  used on input line 400.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -600,53 +600,53 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 405.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 406.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [7 <./img/rlc3-1.jpg>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 441.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 442.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [8 <./img/rlc3-2.jpg>]
 <img/mot4-1.jpg, id=236, 1927.2pt x 964.60374pt>
 File: img/mot4-1.jpg Graphic file (type jpg)
 <use img/mot4-1.jpg>
-Package pdftex.def Info: img/mot4-1.jpg  used on input line 468.
+Package pdftex.def Info: img/mot4-1.jpg  used on input line 469.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 481.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 482.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [9 <./img/mot4-1.jpg>]
 <img/mot4-2.jpg, id=272, 1927.2pt x 964.60374pt>
 File: img/mot4-2.jpg Graphic file (type jpg)
 <use img/mot4-2.jpg>
-Package pdftex.def Info: img/mot4-2.jpg  used on input line 510.
+Package pdftex.def Info: img/mot4-2.jpg  used on input line 511.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 526.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 527.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [10 <./img/mot4-2.jpg>]
 <img/mot5-1.jpg, id=301, 1927.2pt x 964.60374pt>
 File: img/mot5-1.jpg Graphic file (type jpg)
 <use img/mot5-1.jpg>
-Package pdftex.def Info: img/mot5-1.jpg  used on input line 538.
+Package pdftex.def Info: img/mot5-1.jpg  used on input line 539.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 568.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 569.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [11 <./img/mot5-1.jpg>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 627.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 628.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [12]
 <img/mot5-2.jpg, id=352, 1927.2pt x 964.60374pt>
 File: img/mot5-2.jpg Graphic file (type jpg)
 <use img/mot5-2.jpg>
-Package pdftex.def Info: img/mot5-2.jpg  used on input line 666.
+Package pdftex.def Info: img/mot5-2.jpg  used on input line 667.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -654,18 +654,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 687.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 688.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [13]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 724.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 725.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [14 <./img/mot5-2.jpg>]
 <img/mot5-3.jpg, id=428, 1927.2pt x 964.60374pt>
 File: img/mot5-3.jpg Graphic file (type jpg)
 <use img/mot5-3.jpg>
-Package pdftex.def Info: img/mot5-3.jpg  used on input line 770.
+Package pdftex.def Info: img/mot5-3.jpg  used on input line 771.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -674,20 +674,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <img/mot5-4.jpg, id=429, 1927.2pt x 964.60374pt>
 File: img/mot5-4.jpg Graphic file (type jpg)
 <use img/mot5-4.jpg>
-Package pdftex.def Info: img/mot5-4.jpg  used on input line 779.
+Package pdftex.def Info: img/mot5-4.jpg  used on input line 780.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 791.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 792.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [15]
 <img/mot5-5.jpg, id=477, 1927.2pt x 964.60374pt>
 File: img/mot5-5.jpg Graphic file (type jpg)
 <use img/mot5-5.jpg>
-Package pdftex.def Info: img/mot5-5.jpg  used on input line 802.
+Package pdftex.def Info: img/mot5-5.jpg  used on input line 803.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -695,18 +695,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 828.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 829.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [16 <./img/mot5-3.jpg> <./img/mot5-4.jpg>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 887.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 888.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [17 <./img/mot5-5.jpg>]
 <img/mot6-2.jpg, id=506, 1927.2pt x 964.60374pt>
 File: img/mot6-2.jpg Graphic file (type jpg)
 <use img/mot6-2.jpg>
-Package pdftex.def Info: img/mot6-2.jpg  used on input line 934.
+Package pdftex.def Info: img/mot6-2.jpg  used on input line 935.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 
@@ -715,28 +715,28 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <img/mot6-1.jpg, id=507, 1927.2pt x 964.60374pt>
 File: img/mot6-1.jpg Graphic file (type jpg)
 <use img/mot6-1.jpg>
-Package pdftex.def Info: img/mot6-1.jpg  used on input line 940.
+Package pdftex.def Info: img/mot6-1.jpg  used on input line 941.
 (pdftex.def)             Requested size: 418.25368pt x 209.34334pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 945.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 946.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [18]
-Overfull \hbox (11.83208pt too wide) in paragraph at lines 951--953
+Overfull \hbox (11.83208pt too wide) in paragraph at lines 952--954
 []\OT1/phv/m/n/10 Es posi-ble y rel-a-ti-va-mente sen-cil-lo obten-er las con-stantes que mod-e-lan de for-ma matem[]atica
  []
 
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 958.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 959.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
 [19 <./img/mot6-2.jpg> <./img/mot6-1.jpg>]
 File: img/color_UNC-FCEFyN.png Graphic file (type png)
 <use img/color_UNC-FCEFyN.png>
-Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 986.
+Package pdftex.def Info: img/color_UNC-FCEFyN.png  used on input line 987.
 (pdftex.def)             Requested size: 199.16928pt x 32.32921pt.
  [20] (informe.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -750,20 +750,17 @@ Package rerunfilecheck Info: File `informe.out' has not changed.
 (rerunfilecheck)             Checksum: ED73CD6C6A6A3CDEDEFE3DD00F528649;1234.
  ) 
 Here is how much of TeX's memory you used:
- 19220 strings out of 476334
- 353465 string characters out of 5792783
+ 19219 strings out of 476334
+ 353417 string characters out of 5792783
  2251493 words of memory out of 5000000
  40703 multiletter control sequences out of 15000+600000
  577657 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,15n,79p,465b,2462s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{https://github.com/FGalvagno/sistemas-de-control} has been referenced but does not exist, replaced by a fixed one
-
 </home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmtt10.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvb8a.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvr8a.pfb></home/facundog/.miktex/texmfs/install/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on informe.pdf (21 pages, 1722425 bytes).
+Output written on informe.pdf (21 pages, 1722177 bytes).
 PDF statistics:
- 714 PDF objects out of 1000 (max. 8388607)
- 439 named destinations out of 1000 (max. 500000)
+ 712 PDF objects out of 1000 (max. 8388607)
+ 438 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
