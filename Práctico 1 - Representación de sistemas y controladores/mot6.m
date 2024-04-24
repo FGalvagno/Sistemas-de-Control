@@ -23,7 +23,7 @@ ref = 1;
 
 %Constantes del PID
 %Kp=0.1;Ki=0.01;Kd=5;color_='r';
-Kp=80;Ki=500;Kd=0.01;color_='b';
+Kp=1.5;Ki=22.2;Kd=0.00025;color_='b';
 Ts=t_etapa;
 A1=((2*Kp*Ts)+(Ki*(Ts^2))+(2*Kd))/(2*Ts);
 B1=(-2*Kp*Ts+Ki*(Ts^2)-4*Kd)/(2*Ts);
@@ -46,8 +46,8 @@ for ii= 1:N-1
     Xp=A*X+B*U;
     X=X+Xp*t_etapa;
     Y=C*X+D*U;
-    %e(k) = ref-Y(3);
-    %U(1) = U(1)+A1*e(k)+B1*e(k-1)+C1*e(k-2);
+    e(k) = ref-Y(3);
+    U(1) = U(1)+A1*e(k)+B1*e(k-1)+C1*e(k-2);
     
     acc(ii+1)=U(1);
     ia(ii+1)=Y(1);
@@ -57,9 +57,11 @@ for ii= 1:N-1
 end
 
 t=t_etapa:t_etapa:tF;
-subplot(2,1,1);hold on;
+subplot(3,1,1);hold on;
 plot(t,theta,color_);title('Salida: Posición, \theta_t');
-subplot(2,1,2);hold on;
+subplot(3,1,2);hold on;
 plot(t,omega,color_);title('Salida: Velocidad, \omega_t');
+subplot(3,1,3);hold on;
+plot(t,ia,color_);title('Salida: corriente de armadura, i_a');
 xlabel('Tiempo [Seg.]');
 
