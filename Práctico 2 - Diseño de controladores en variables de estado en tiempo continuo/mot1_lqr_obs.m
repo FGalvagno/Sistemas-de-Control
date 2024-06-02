@@ -50,7 +50,7 @@ poles = eig(Aa-Ba(:,1)*K)
 lambda = max(poles);
 tr = abs(log(0.95)/lambda);
 delta = 2.5e-7;
-ts = 20;
+ts = 3;
 
 %% Señales de entrada
 t_s =0:delta:(ts-delta);
